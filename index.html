@@ -1,56 +1,96 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=1280, initial-scale=1" />
   <title>Just Justice Legal Consultants</title>
+  <meta name="description" content="Trusted legal guidance for individuals, startups, and organizations." />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" media="(prefers-color-scheme: light)" data-theme="light">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" media="(prefers-color-scheme: light)" data-theme="light">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-dark-32x32.png" media="(prefers-color-scheme: dark)" data-theme="dark">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-dark-16x16.png" media="(prefers-color-scheme: dark)" data-theme="dark">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="Just Justice Legal Consultants" />
+  <meta property="og:description" content="Expert guidance for individuals, startups, and businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image-1200x630.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="assets/twitter-card-1500x500.png" />
 </head>
 <body>
-<main class="page-grid">
-<section class="panel panel--gold">
-  <div class="hero-inner">
-    <img src="logo.png" alt="Just Justice Legal Consultants Logo" class="brand-mark-img" />
-    <h1 class="brand__title">JUST JUSTICE</h1>
-    <p class="brand__subtitle">LEGAL CONSULTANTS</p>
-    <p class="tagline">Trusted legal guidance for individuals, startups, and organizations.</p>
-    <a class="btn btn--primary" href="#contact">Book a Consultation</a>
-  </div>
-</section>
+  <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">☾</button>
+  <main class="page-grid">
+    <section id="hero" class="panel panel--gold">
+      <div class="hero-inner align-center">
+        <span role="img" aria-label="Just Justice crest" class="brand-mark-img"></span>
+        <header class="brand">
+          <h1 class="brand__title">JUST JUSTICE</h1>
+          <p class="brand__subtitle">LEGAL CONSULTANTS</p>
+        </header>
+        <p class="tagline">Trusted legal guidance for individuals, startups, and organizations.</p>
+        <a class="btn btn--primary" href="#contact">Book a Consultation</a>
+      </div>
+    </section>
 
-<section class="panel panel--cream">
-  <div class="panel-inner">
-    <h2 class="section-title">About Us</h2>
-    <p>Just Justice Legal Consultants is a modern legal advisory practice delivering clear, practical, and strategic legal solutions.</p>
-  </div>
-</section>
+    <section id="about" class="panel panel--cream">
+      <div class="panel-inner">
+        <h2 class="section-title">About Us</h2>
+        <div class="content">
+          <p>Just Justice Legal Consultants is a modern legal advisory practice committed to delivering clear, practical, and strategic solutions with a client‑first approach.</p>
+          <p>Our mission is to provide accessible, reliable legal support that empowers confident decisions — for individuals, startups, and established businesses.</p>
+        </div>
+      </div>
+    </section>
 
-<section class="panel panel--navy">
-  <div class="panel-inner">
-    <h2 class="section-title section-title--light">Our Legal Services</h2>
-    <div class="cards">
-      <article class="card">Legal Advisory & Consultation</article>
-      <article class="card">Contract Drafting & Review</article>
-      <article class="card">Business & Corporate Law</article>
-      <article class="card">Compliance & Regulatory Support</article>
-      <article class="card">Dispute Resolution Guidance</article>
-      <article class="card">Dispute Resolution Assistance</article>
-    </div>
-  </div>
-</section>
+    <section id="services" class="panel panel--navy on-navy">
+      <div class="panel-inner">
+        <div class="services-header">
+          <span role="img" aria-label="Crest" class="crest-icon"></span>
+          <h2 class="section-title section-title--light">Our Legal Services</h2>
+          <p class="section-kicker">Expert guidance for individuals, startups, and businesses.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><h3>Legal Advisory & Consultation</h3><p>Clarity on rights, risks, and next steps.</p></article>
+          <article class="card"><h3>Contract Drafting & Review</h3><p>Clear, enforceable agreements tailored to your goals.</p></article>
+          <article class="card"><h3>Business & Corporate Law</h3><p>Company setup, governance, and compliance support.</p></article>
+          <article class="card"><h3>Compliance & Regulatory Support</h3><p>Policy audits and regulator‑ready documentation.</p></article>
+          <article class="card"><h3>Dispute Resolution Guidance</h3><p>Negotiation strategy and mediation preparation.</p></article>
+          <article class="card"><h3>Dispute Resolution Assistance</h3><p>Hands‑on support through the dispute process.</p></article>
+        </div>
+      </div>
+    </section>
 
-<section id="contact" class="panel panel--cream">
-  <div class="panel-inner">
-    <h2 class="section-title">Contact Us</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" />
-      <input type="email" placeholder="Your Email" />
-      <textarea placeholder="Your Message"></textarea>
-      <button class="btn btn--dark">Send Message</button>
-    </form>
-  </div>
-</section>
-</main>
+    <section id="contact" class="panel panel--cream">
+      <div class="panel-inner">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="content lead">We’re here to help you navigate your legal needs with confidence.</p>
+        <div class="contact-grid">
+          <address class="contact-details" aria-label="Firm contact details">
+            <strong>Sinethemba Dlamini</strong><br>
+            <a href="mailto:justjusticelegal@gmail.com">justjusticelegal@gmail.com</a><br>
+            <a href="tel:+27839879228">+27 (083) 987 9228</a><br>
+            Pietermaritzburg, South Africa
+          </address>
+          <form class="contact-form" aria-label="Send us a message" action="#" method="post" novalidate>
+            <label class="sr-only" for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Your Name" required>
+            <label class="sr-only" for="email">Your Email</label>
+            <input id="email" name="email" type="email" placeholder="Your Email" required>
+            <label class="sr-only" for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn--dark">Send Message</button>
+          </form>
+        </div>
+        <div class="footer-mark on-navy" aria-hidden="true">
+          <span role="img" aria-label="Crest" class="crest-icon crest-footer"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
