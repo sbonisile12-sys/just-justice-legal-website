@@ -1,44 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Just Justice — Legal Consultants</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1280, initial-scale=1" />
+  <title>Just Justice Legal Consultants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<section class="hero" style="background-image:url('assets/images/banner_hero.jpg')">
-  <div class="overlay">
-    <img src="assets/images/logo_web.png" class="logo" alt="Just Justice Logo" />
-    <h1>Just Justice Legal Consultants</h1>
-    <p>Trusted legal guidance for individuals, startups, and organizations.</p>
-    <a href="#contact" class="cta">Book a Consultation</a>
+<main class="page-grid">
+<section class="panel panel--gold">
+  <div class="hero-inner">
+    <img src="logo.png" alt="Just Justice Legal Consultants Logo" class="brand-mark-img" />
+    <h1 class="brand__title">JUST JUSTICE</h1>
+    <p class="brand__subtitle">LEGAL CONSULTANTS</p>
+    <p class="tagline">Trusted legal guidance for individuals, startups, and organizations.</p>
+    <a class="btn btn--primary" href="#contact">Book a Consultation</a>
   </div>
 </section>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>Just Justice Legal Consultants is a modern legal advisory practice committed to delivering clear, practical, and strategic legal solutions with professionalism and integrity.</p>
-</section>
-
-<section class="services" style="background-image:url('assets/images/banner_services.jpg')">
-  <h2>Our Legal Services</h2>
-  <p class="subtitle">Expert guidance for individuals, startups, and businesses.</p>
-  <div class="grid">
-    <div>Legal Advisory & Consultation</div>
-    <div>Contract Drafting & Review</div>
-    <div>Business & Corporate Law</div>
-    <div>Compliance & Regulatory Support</div>
-    <div>Dispute Resolution Guidance</div>
+<section class="panel panel--cream">
+  <div class="panel-inner">
+    <h2 class="section-title">About Us</h2>
+    <p>Just Justice Legal Consultants is a modern legal advisory practice delivering clear, practical, and strategic legal solutions.</p>
   </div>
 </section>
 
-<section id="contact" class="contact">
-  <h2>Contact</h2>
-  <p><strong>Name:</strong> Sinethemba Dlamini</p>
-  <p><strong>Email:</strong> Justjusticelegal@gmail.com</p>
-  <p><strong>Phone:</strong> +27 (083) 978 9228</p>
-  <p><strong>Location:</strong> Pietermaritzburg, South Africa</p>
+<section class="panel panel--navy">
+  <div class="panel-inner">
+    <h2 class="section-title section-title--light">Our Legal Services</h2>
+    <div class="cards">
+      <article class="card">Legal Advisory & Consultation</article>
+      <article class="card">Contract Drafting & Review</article>
+      <article class="card">Business & Corporate Law</article>
+      <article class="card">Compliance & Regulatory Support</article>
+      <article class="card">Dispute Resolution Guidance</article>
+      <article class="card">Dispute Resolution Assistance</article>
+    </div>
+  </div>
 </section>
+
+<section id="contact" class="panel panel--cream">
+  <div class="panel-inner">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button class="btn btn--dark">Send Message</button>
+    </form>
+  </div>
+</section>
+</main>
 </body>
 </html>

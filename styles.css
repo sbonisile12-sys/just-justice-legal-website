@@ -1,0 +1,13 @@
+body{margin:0;font-family:Inter,sans-serif}
+.page-grid{display:grid;grid-template-columns:1fr 1fr;min-height:100vh}
+.panel{display:flex;align-items:center;justify-content:center;padding:40px}
+.panel--gold{background:#c79b33}
+.panel--cream{background:#faf5ec}
+.panel--navy{background:#0d2a3a;color:#fff}
+.brand-mark-img{width:200px;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.card{background:#15384e;padding:20px;border-radius:8px}
+.btn{padding:12px 18px;border-radius:6px;text-decoration:none}
+.btn--primary{background:#1b354c;color:#fff}
+.btn--dark{background:#0d2a3a;color:#fff;border:none}
+input,textarea{display:block;width:100%;margin-bottom:10px;padding:10px}
